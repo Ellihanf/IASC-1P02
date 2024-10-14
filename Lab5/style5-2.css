@@ -1,0 +1,49 @@
+body{
+  background-color: black;
+  margin: 0;
+}
+
+h1, h2{
+  margin: 0;
+}
+
+.wrapper{
+  width: 1000px;
+  padding-left: 300px;
+  padding-right: 300px;
+  background-color: green;
+  margin: 0 auto;
+}
+
+.header{
+  height: 100px;
+  background-color: red;
+  text-align: center;
+}
+
+.firstnav{
+  height: 80px;
+  width: 300px;
+  background-color: pink;
+  float: left;
+  padding-bottom: 10px;
+}
+
+.firstsecnav{
+  height: 80px;
+  width: 700px;
+  background-color: orange;
+  float: left;
+  padding-bottom: 10px;
+}
+
+.content{
+  height: 700px;
+  background-color: blue;
+  clear: both;
+}
+
+.footer{
+  height: 50px;
+  background-color: yellow;
+}
