@@ -1,0 +1,59 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.colorchange{
+  color: green;
+  background-color: aqua;
+  max-width: 1450px;
+  margin: 10px;
+  border: 2px dotted;
+  padding: 5px;
+}
+
+.sizechange{
+  font-size: 25px;
+}
+
+.fontchange{
+  font-family: sans-serif;
+  border: 2px dashed;
+  background-color: blue;
+  max-width: 1450px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.casetransform{
+  text-transform: uppercase;
+}
+
+.fixedposition{
+  background-color: white;
+  position: fixed;
+  right: 20px;
+  text-align: right;
+}
+
+#image1{
+  width: 300px;
+  height: auto;
+  position: absolute;
+  right: 300px;
+  top: 160px;
+}
+
+#image2{
+  width: 1000px;
+  height: auto;
+  position: relative;
+  bottom: 50px;
+  left: 400px;
+}
+
+.casetransform li{
+  color: lightpink;
+}
+
+h1,h2{font-family: arial}
