@@ -9,4 +9,4 @@ function showYear(){
   document.getElementById("birthYear").innerHTML = todayFullYear - myPrompt;
 }
 
-console.log(showYear);
+showYear();
